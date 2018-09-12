@@ -18,4 +18,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-![Alt text](./mood1.png?raw=true "01")
+# Screenshots
+
+![Alt text](./mood1.png?raw=true "Page 1")
+![Alt text](./mood2.png?raw=true "Page 2")
+![Alt text](./mood3.png?raw=true "Page 3")
+![Alt text](./mood4.png?raw=true "Page 4")
+
