@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+html, .globalbody{
+  /* min-width: 500px; */
+  min-height: 100%;
+  background-color: #333;
+  color: white;
+  height: auto;
+  /* background: linear-gradient(to bottom, #333, #333); */
+  /* background: linear-gradient(to bottom, #333, #333); */
+  /* overflow: hidden; */
+  /* height: 100%;
+  width: 100%;
+  position: relative;
+  */
+  /* margin-top: auto;
+  margin-bottom: auto; */
+    /* position: relative; */
+}

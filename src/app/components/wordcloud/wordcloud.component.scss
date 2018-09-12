@@ -1,0 +1,75 @@
+.adjectives {
+  margin: 70px 30%;
+  text-align: center;
+}
+
+.description{
+  text-align: center;
+  font-size: 22px;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+#next_button {
+  margin-top: 30px;
+}
+
+.offset {
+  box-shadow:
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+
+  &:hover,
+  &:focus {}
+}
+
+$colors: (
+  offset: #19bc8b
+);
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+body {
+  color: #fff;
+  background: hsl(227, 10%, 10%);
+  font: 500 1em 'Fira Sans', sans-serif;
+
+  // Center everything ever
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+// Basic button styles
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+h1 { font-weight: 400; }
+
+code {
+  color: #e4cb58;
+  font: inherit;
+}

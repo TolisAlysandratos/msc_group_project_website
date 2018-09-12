@@ -1,0 +1,28 @@
+.emojis{
+  margin: 30px 10px 70px 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.description{
+  text-align: center;
+  font-size: 22px;
+  color: grey;
+  margin-top: 10px;
+}
+
+#next_button {
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 15px;
+}
+
+#emoji2 {
+  font-size: 50px;
+  margin:5px 5px 5px 2%;
+  height:7vh;
+  width: 6vw;
+  max-width: 40px;
+}

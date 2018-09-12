@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div id="listen">Listen.<div>
+    <button id="playbtn" type="button" class="btn btn-success btn-lg"
+      (click)="getTrack()">{{playPauseLabel}}</button>
+    <br>
+    <a id="start_over_button" type="button" class="btn btn-default"
+      href="https://accounts.spotify.com/authorize?client_id=780a86aafb444d96aef50b9be3eee94f&scope=playlist-modify-public&response_type=token&redirect_uri=https:%2F%2Fmoodifyplay.azurewebsites.net">Start Over
+    </a>
+    <a type="button" class="btn btn-danger"
+          (click)="skipSong()"> Next Track {{skipLabel}}</a>
+    <br>
+</div>
+
+<div *ngIf="!playlistSaved" class="url">
+  <p>If you liked this playlist, the full tracks can be found <a (click)="savePlaylistAndRedirectToEnd()"> here</a>.</p>
+  <h1>Clicking the link above will save this full playlist in your Spotify account.</h1>
+</div>
+
+<div *ngIf="playlistSaved" class="url">
+  <p> Your playlist has been saved, thank you for using Moodify! </p>
+  <h1> Psst, tell your friends about us. </h1>
+</div>
+
+<div class="description">
+  This playlist was generated from votes by users just like you!
+  <br>
+  Want to have fun and help make better playlists? Just click <a href="https://moodifydc.azurewebsites.net">here</a>.
+</div>

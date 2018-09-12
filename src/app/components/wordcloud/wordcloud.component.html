@@ -1,0 +1,22 @@
+<div class="adjectives">
+
+  <div class="description">
+    Now select up to three adjectives.
+  </div>
+
+  <button class="offset" (click)="select(adjectiveLabel)"
+  [ngStyle]="{'background': (adjectives.indexOf(adjectiveLabel) > -1) ? '#19bc8b': ''}"
+  *ngFor="let adjectiveLabel of adjectiveLabels">
+  {{adjectiveLabel}}
+  </button>
+
+  <br>
+  <a id="next_button" type="button" class="btn btn-default"
+                    href="https://accounts.spotify.com/authorize?client_id=780a86aafb444d96aef50b9be3eee94f&scope=playlist-modify-public&response_type=token&redirect_uri=https:%2F%2Fmoodifyplay.azurewebsites.net">
+          Start Over
+  </a>
+  <a id="next_button" type="button" class="btn btn-danger"
+          (click)="submit()">
+          Next
+  </a>
+</div>

@@ -1,0 +1,43 @@
+.container-fluid {
+  margin: 70px;
+  text-align: center;
+}
+
+button {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#playbtn {
+  margin-bottom: 30px;
+  margin-top: 5vh;
+  font-size: 60px;
+  width: 120px;
+}
+
+.url {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.description{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+#listen {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 4vh;
+}
+
+h1 {
+  font-size: 14px;
+}
+
+a {
+  cursor: pointer;
+}
